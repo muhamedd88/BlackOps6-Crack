@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://martexcnc.pl/wp-content/uploads/2021/07/pexels-opt-lasers-7254413.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px 40px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%; /* تعديل عرض شريط التنقل */
+    max-width: 1400px; /* تعديل الحد الأقصى للعرض */
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    padding: 16px 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 150px auto 30px; /* هذا يضمن أن يكون هناك مسافة كافية أسفل شريط التنقل */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: center;
+}
+
+.content h2 {
+    color: rgb(38, 0, 255);
+}
+
+.content h3 {
+    color: rgb(38, 0, 255); /* نفس اللون لرأس النص الثالث */
+}
+
+.content p {
+    color: rgb(0, 102, 255);
+}
+.content h4 {
+    color: rgb(38, 0, 255);
+}
+.boy {
+    max-width: 800px;
+    margin: 150px auto 30px; /* هذا يضمن أن يكون هناك مسافة كافية أسفل شريط التنقل */
+    padding: 20px;
+    background: rgba(101, 191, 255, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: center;
+    max-width: 40%; /* يمكنك ضبط النسبة المئوية حسب الحاجة */
+    height: auto;
+}
+
+.girl {
+    max-width: 800px;
+    margin: 100px auto 20px; /* هذا يضمن أن يكون هناك مسافة كافية أسفل شريط التنقل */
+    padding: 20px;
+    background: rgba(255, 120, 196, 0.8);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: center;
+    max-width: 40%; /* يمكنك ضبط النسبة المئوية حسب الحاجة */
+    height: auto;
+}
+
+.boy img {
+    width: 200px; /* تعيين العرض المطلوب */
+    height: 250px; /* تعيين الارتفاع المطلوب */
+    object-fit: cover;
+}
+
+.girl img {
+    width: 200px; /* تعيين العرض المطلوب */
+    height: 250px; /* تعيين الارتفاع المطلوب */
+    object-fit: cover;
+}
+

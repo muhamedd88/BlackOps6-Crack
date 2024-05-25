@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mystery Team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#Laser">Laser</a></li>
+            <li><a href="#motor">Motor</a></li>
+            <li><a href="#Ddrv8825">Ddrv8825</a></li>
+            <li><a href="#Power supply">Power supply</a></li>
+            <li><a href="#Arduino">Arduino</a></li>
+            <li><a href="#LIGHTBURN">LIGHTBURN</a></li>
+            <li><a href="#Safety">Safety</a></li>
+        </ul>
+    </nav>
+    <div id="Introduction" class="content">
+        <h2>Introduction</h2>
+        <p>CNC laser machines
+            It is a technology that uses laser beams to cut materials and raw materials
+            In industrial applications, but its spread has begun in small industries
+            The laser works by directing the laser beam through lenses and focusing
+            The beam
+            This is on the surface of the work, which in turn melts, evaporates, or burns and leaves a surface
+            The work is clean and the finishing is excellent. In 1965, the first laser machine was produced.
+            For piercing jewelry, this machine was used by Western Electric Center
+            For engineering and research
+            In 1970, technology was developed and the use of lasers expanded to include metals
+            like
+            Titanium for aircraft manufacturing.</p>
+        <img src="images/7w-10w-big-Power-laser-Engraving-Machine-Desktop-Printer-DIY-Violet-Laser-Engreaver-30-40cm-Wood-1.jpg" style="max-width: 100%;">
+        <p>  ماكينه CNC ليزر
+            عبارة عن تكنولوجيا بتستخدم اشعة الليزر لقطع المواد والخامات وبتستخدم
+            فى التطبيقات الصناعية ولكن بدأ انتشاره فى الصناعات الصغيرة
+            بيشتغل الليزر عن طريق توجيه شعاع الليزر عن طريق عدسات وبيتم تركيز
+            الشعاع
+            ده على سطح الشغل اللى بدوره بينصهر او يتبخر او بيحترق وبيترك سطح
+            الشغل نظيف و الفنشنج بيكون ممتاز فى سنه 1965تم انتاج اول ماكينة ليزر
+            لثقب المجوهرات والماكينة دى اتعملت بواسطة مركز ويسترن اليكترك
+            للهندسة واالبحاث
+            وفى سنة 1970 تطوير التكنولوجيا و توسع استخدام الليزر ليشمل معادن
+            زى
+            التيتانيوم لتصنيع الطائرات </p>
+    </div>
+
+    <div id="Laser" class="content">
+        <h2>Laser</h2>
+        <p>The 80 Watt Laser Diode is a powerful type of semiconductor laser that packs a high power
+            The laser came out in a small beam. These lasers have unique properties that make them useful in...
+            Wide range of industrial applications Working principle Like all laser diodes, the diode works
+            80 watt laser by converting electricity into light. This conversion occurs upon association
+            Electrons and holes in a semiconductor, resulting in the emission of light. However,
+            What distinguishes an ordinary diode is that the laser produces very coherent light. This means that all
+            The laser has the same wavelength and phase as the lamp, which creates the LED's light waves
+            Narrow beam 80 watts Industrial applications, including welding and laser cutting: Can be used to weld metals
+            Various types of materials with high precision, as well as for cutting materials such as steel and plastic. Engraving: used in engraving
+            Signs and symbols on a variety of materials. Laser cleaning: can be used
+            3D printing: used to remove rust, paint and other contaminants from surfaces
+            Some high-resolution 3D printers use laser diodes to process materials and produce 3D models
+            Dimensions Safety Considerations Due to 80 watts, they are dangerous devices and can cause damage
+            Serious injuries if the high power laser diodes are not handled properly. Users should always follow the company's recommended safe operating procedures
+            manufacturer and wear appropriate personal protective equipment, including safety glasses
+            Specially designed for laser wavelengths</p>
+        <img src="images/Depositphotos_10720054_original-min.webp" style="max-width: 100%;">
+        <p>ديود الليزر 80 وات هو نوع قوي من الليزر أشباه الموصالت الذي يحزم قدرة عالية من
+            خرج الليزر في حزمة صغيرة. تتميز هذه الليزرات بخصائص فريدة تجعلها مفيدة في
+            مجموعة واسعة من التطبيقات الصناعية مبدأ العمل مثل جميع ديودات الليزر، يعمل ديود
+            الليزر 80 وات عن طريق تحويل الكهرباء إلى ضوء. يحدث هذا التحويل عند اقتران
+            اإللكترونات والفجوات في موصل أشباه موصل، مما ينتج عنه انبعاث للضوء. ومع ذلك،
+            فإن ما يميز ديود العادي هو أن الليزر ينتج ضو ًءا متماسكا للغاية. وهذا يعني أن جميع
+            الليزر عن مصباح نفس الطول الموجي والطور، مما يخلق LEDموجات الضوء لها
+            شعاًعا ضيقً 80 وات القدرة: 80 وات - وهذا يعتبر ا عالي االتجاه مواصفات ديود الليزر
+            قدرة عالية بالنسبة لديود الليزر، مما يجعله مناسب للتطبيقات التي تتطلب تركي ًزا .عاليًا
+            للطاقة طول الموجة: يمكن أن تختلف أطوال الموجات اعتما ًدا على نوع ديود الليزر،
+            ولكن النوع الشائع هو 940 )نانومتر (غير مرئي للعين تطبيقات ديود الليزر 80 وات
+            بفضل قدرتها العالية واتجاهها الضيق، تستخدم ديودات الليزر 80 وات في العديد من
+            التطبيقات :الصناعية، بما في ذلك اللحام والقطع بالليزر: يمكن استخدامها لحام المعادن
+            المختلفة بدقة عالية، وكذلك لقطع مواد مثل الفوالذ .والبالستيك .ال نقش: تستخدم في نقش
+            العالمات والرموز على مجموعة متنوعة من المواد .التنظيف بالليزر: يمكن استخدامها
+            إلزالة الصدأ والطالء وغيرها من الملوثات من األسطح الطباعة ثالثية األبعاد: تستخدم
+            بعض طابعات ثالثية األبعاد عالية الدقة ديودات الليزر لمعالجة المواد وإنتاج .نماذج ثالثية
+            األبعاد اعتبارات السالمة نظ ًر 80 وات، فهي تعتبر أجهزة خطيرة ويمكن أن تتسبب في
+            إصابات خطيرة إذا لم ا للقدرة العالية لديودات الليزر يتم التعامل معها بشكل صحيح.
+            يجب على المستخدمين دائ ًما اتباع إجراءات التشغيل اآلمن الموصى بها من الشركة
+            المصنعة وارتداء معدات الوقاية الشخصية المناسبة، بما في ذلك نظارات السالمة
+            المصممة خصي ًصا ألطوال .الموجات الخاصة بالليز</p>
+    </div>
+
+    <div id="motor" class="content">
+        <h2>Motor</h2>
+        <p>Engine definition:
+            42 stepper motor 17 nema mm A1.7 BYGH42 cm.N40
+            Stepper motor S4401HSNEMA 17 38 – S4401HS17
+            4-lead motor for 3D printer. CNC, Rosh, ISO, FSL laser certification
+            Sisi .
+            It is used in:
+            3D printers, surveillance equipment, medical machines, textile machines, packaging machines,
+            Stage lighting, laser engraving, automation equipment
+            Equipment, installation machine, etc. Features and benefits:
+            NEMA 17 high torque motor.
+            42N.cm (600z.in) holding torque
+            And robotics applications, CNC is ideal for 3D printers,
+            rwin 4 pins supplied with 1 meter power cable with female connector
+            Adopts high-quality steel materials for better performance
+            Lower resistance value for improved thermal conductivity
+            Product Description :
+            Twotrees Stepper Nema 17 Motor 42BYGH Motor
+            Cable with Lead – M for 1 D3 CNC Printer DIY (Package 3)
+            38MM 1.5A 42N.cm(60oz.in) 4 1.8° This is a high torque NEMA 17 motor with 1.8A, all phase
+            It draws 1.5 amps, allowing for torque
+           40 cm cord, one end connects an electrical machine, the other end contains outlets
+           Various optional.
+           Rostock, Mendel and Prusa 90 RepRap printers are ideal for printers
+           similar three-dimensional,
+           In addition to applications and robots.
+           The motor is equipped with a 1 meter power cable with 4-pin female connectors
+           Already equipped – ready to plug in and print!
+           Electrical specifications:
+           Product type: Bipolar 42
+           Step angle: 1.8 degrees
+           Current/Phase Rating:
+           42N.cm (60oz.in): Rotating torque
+           General specifications:
+           Step angle accuracy: + - 5% (full step, loading)
+           Resistance accuracy: + - 10%
+           Induction accuracy: + - 20%
+           Temperature rise: 80 degrees maximum (rated current, two-phase limitation
+           Employment(</p>
+        <img src="images/download.jfif" style="max-width: 100%;">    
+        <p>تعريف المحرك :
+            محرك 42 متدرج محرك 17 نيما ملم A1.7 BYGH42 cm.N40
+            متدرج محرك S4401HSنيما من 17 38 – S4401HS17
+            محرك 4 رصاص ل طابعة ثالثية شهادة ليزر سي ان سي , روش , ايزو , اف
+            سي سي .
+            و هو يستخدم في :
+            طابعات ثالثية االبعاد , معدات مراقبه ,االت طبيه , االت نسيج ,االت تغليف ,
+            اضاءة المسرح , النقش بالليزر , معدات التشغيل االلي
+            المعدات , الة التثبيت وما الي ذلك المميزات والفوائد :
+            محرك نيما 17 عالي عزم الدوران .
+            42N.cm (600z.in) عقد عزم الدوران
+            وتطبيقات الروبوتات , CNCمثالية للطابعات ثالث ية االبعاد ,
+            سنون rwin 4 Haمزود بكابل طاقة بطول 1 متر مع موصل أنثى
+            يعتمد مواد فوالذية عالية الجودة ألداء افضل
+            قيمة مقاومة أقل للموصلية الحرارية المحسنة
+            وصف المنتج :
+            Twotrees Stepper Nema 17 Motor 42BYGH محرك
+            كابل مع الرصاص – Mللطابعة 1 D3 CNC DIY(حزمة 3(
+            38MM 1.5A 42N.cm (60oz.in) 4 1.8 درجة هذا محرك نيما 17 عالي عزم الدوران مع 1.8درجة ، كل مرحلة
+            تسحب 1.5 امبير ، مما يسمح بعزم دوران
+           سلك 40 سم ، واحد توصيل الة كهربائية ، علي الطرف االخر يحتوي علي منافذ
+           اختيارية متنوعة .
+           والطابعات Rostockو Mendelو 90 RepRap Prusaانها مثالية لطابعات
+           ثالثية االبعاد المماثلة ,
+           باالضافة الي تطبيقات والروبوتات.
+           المحرك مزود بكابل طاقة بطول متر واحد مع موصالت انث ى 4 سنون
+           مجهز بالفعل – جاهز للتوصيل والطباعة!
+           المواصفات الكهربائية :
+           نوع المنتج : ثنائي القطب 42
+           زاوية الخطوة 1.8: درجة
+           تصنيف التيار / المرحلة :
+           42N.cm (60oz.in) : الدوران عزم
+           المواصفات العامة :
+           دقة زاوية الخطوة : + - 5)%خطوة كاملة ، التحميل(
+           دقة المقاومة : + - 10 %
+           دقة الحث : + - 20 %
+           ارتفاع درجة الحرارة : 80 درجة كحد اقصي )تيار مصنف ، مرحلتان قيد
+           التشغيل(
+           درجة الحرارة المحيطة : 20 درجة + 50 درجة
+           100M Min ‘ 500VDC : مقاومة العزل
+           لمدة دقيقة واحدة. VACقوة االهانة : 500
+           وشملت الحزمة :
+           X Nema 17 Stepper Motors 3
+           كابالت 3 X
+           الجهد المستخدم والفولت :
+           هذا المحرك له تصنيف جهد واسع .
+           جهدها االسمي هو فولت تيار مستمر , ولكن يمكن ان تعمل بجهود تتراوح
+           من3.6 فولت الي 36 فولت.
+           نوصي عادة باستخدامه مع مصدر
+           42N.cm(60oz.in)
+           CNC
+           Harwin 1.5A وبجداقصى,12 V DC او 24V DC</p>
+    </div>
+
+    <div id="Ddrv8825" class="content">
+        <h2>Ddrv8825</h2>
+        <p>
+            This stepper motor driver program allows you to control a bipolar stepper motor with an output current of up to 2.2 amps per coil (refer to the Power Dissipation Considerations section below for more information). Here are some of the key features of the driver:
+            
+            Simple interface for controlling step and direction
+            Six different step resolutions: full step, half step, 1/4 step, 1/8 step, 1/16 step, and 1/32 step
+            Adjustable current control allows you to set the maximum output current using a voltage meter, enabling you to achieve higher step rates
+            Configured for mixed decay mode
+            Maximum supply voltage of 45 volts
+            Built-in regulator (no need for an external logic voltage source)
+            Can directly interface with 3.3-volt and 5-volt systems
+            Thermal shutdown, overcurrent shutdown, and low voltage shutdown protection
+            Short-to-ground and short-to-load protection
+            Four-layer PCB design with 2-ounce copper to improve heat dissipation
+            Exposed ground PCB underneath the IC for better heat dissipation
+            Pinout matches that of most stepper motor driver boards, typically the A4988
+            These features allow for precise control and protection of your stepper motor, making it suitable for a variety of applications.</p>
+        <img src="images/download (1).jfif" style="max-width: 100%;">
+        <p>يتيح لك برنامج تشغيل المحرك المتدرج هذا التحكم في محرك متدرج ثنائي
+            القطب بتيار إخراج يصل إلى 2.2 أمبير لكل
+            الملف )راجع قسم اعتبارات تبديد الطاقة أدناه لمزيد من المعلومات(. وهنا بعض
+            من
+            الميزات الرئيسية للسائق:
+            واجهة بسيطة للتحكم في الخطوة واالتجاه
+            ستة دقة مختلفة للخطوات: خطوة كاملة، نصف خطوة، 1/4 خطوة، 1/8 خطوة،
+            1/16 خطوة، و1/32 خطوة
+            يتيح لك التحكم الحالي القابل للتعديل ضبط الحد األقصى إلخراج التيار باستخدام
+            مقياس الجهد، مما يسمح لك بذلك
+            يمكنك استخدام الفولتية أعلى من الجهد المقنن لمحرك السائر الخاص بك لتحقيق
+            معدالت خطوة أعلى
+            تم تكوينه لوضع االضمحالل المختلط
+            45 فولت أقصى جهد لإلمداد
+            منظم مدمج )ال حاجة إلى مصدر جهد منطقي خارجي(
+            يمكن أن تتفاعل مباشرة مع أنظمة 3.3 فولت و5 فولت
+            اإلغالق الحراري الزائد في درجة الحرارة، وإغالق التيار الزائد، وإغالق الجهد
+            المنخفض
+            حماية قصيرة إلى األرض وقصيرة الحمل
+            لتحسين تبديد الحرارة PCB4 طبقات، 2 أونصة من النحاس
+            PCBالموجود أسفل ICلوحة أرضية قابلة للحام مكشوفة أسفل برنامج التشغيل
+            والواجهة مع تلك الموجودة في حامالت محرك pinoutيتطابق حجم الوحدة و
+            الخاصة بنا في معظم األحيان 4988Aالسائر
+            االحترام .</p>
+    </div>
+
+    <div id="Power supply" class="content">
+        <h2>Power supply</h2>
+        <p>- The 12 volt 15 amp power supply is an electronic device
+            To direct current (AC) is used to convert alternating current (
+            Y
+            With a voltage of 12 volts and a current of 15 amps (DC
+             These providers are widely used
+            T
+            In various applications, including:
+            1- Security systems and cameras:
+            - To operate cameras, alarms, and control devices
+            Access.
+            Lighting: 2 LED
+            , LED panels, and LED lamps - to operate strips
+            LED.
+            Electronic devices: 3
+            - To operate computers, routers, modems,
+            And other electronic devices.
+            4-Electronic projects:
+            Such as robots, and DIY devices to power projects
+            Sensing and control systems 12 volt power supply specifications 15
+            Ampere:
+            Input voltage:
+            Voltage: 110-220 - AC, 50-60 Hz
+            Output voltage:
+            Volt 12 - DC
+            Output current:
+            - 15 amps
+            energy :
+            - 180 watts
+            Energy efficiency:
+            - ≥%80
+            protection :
+            - From short circuit, overload, and high voltage
+            Features:
+            - Indicator, cooling fan, metal case
+            Applications :
+            - Security systems, lighting, and electronic devices
+            Electronic projects
+            Features of the 12 volt 15 amp power supply:
+            1-High reliability
+            LED
+            These servers are of high quality and components
+            Durable
+            To ensure reliable operation.
+            2-High efficiency:
+            These supplies provide high energy efficiency, which...
+            reduces
+            Consume energy and generate heat. 3-Comprehensive protection:
+            - These supplies provide protection against short circuits
+            The circuit, the load
+            Overload, high voltage, ensuring safety
+            the device
+            And connected devices.
+            4- Ease of use:
+            These providers come with two inputs and two outputs
+            Standard, which
+            Easy to connect to other devices.
+            5- Suitable price:
+            - These providers are characterized by a reasonable price compared to them
+            With specifications
+            that she presents .
+            Disadvantages of 12V 15A power supply
+            1- Size and weight
+            Which may make it unsuitable for applications
+            require
+            Limited space.
+            2-Fan noise:
+            - Some suppliers may emit noise
+            Cooling fan, j
+            Especially when working with high loads</p>
+            <img src="images/th.jfif" style="max-width: 100%;">
+            <p>المقدمة :
+                - مزود الطاقة 12 فولت 15 أمبيريهو جهاز إلكترونيي
+                إلى تيار مستمر (( AC ُيستخدم لتحويل التيار المتردد (
+                ي
+                بجهد 12 فولت وتيار 15 أمبير .( DC
+                 ُ ستخدم هذه المزودات على نطاق واسع
+                ت
+                في مختلف التطبيقات،يبما في ذلك :
+                1 -أنظمة المن والكاميرات :
+                - لتشغيل الكاميرات،يوأجهزة النذار، وأجهزة التحكم في
+                الوصول.
+                الضاءة- :2 LED
+                ،ولوحات LED،ومصابيح LED- لتشغيل شرائط
+                LED.
+                الجهزة اللكترونية -: 3
+                - لتشغيل أجهزة الكمبيوتر، وأجهزة التوجيه، والمودم،
+                وغيرها من الجهزة اللكترونية .
+                4 -المشاريع اللكترونية :
+                مثل الروبوتات، وأجهزة DIY- لتزويد الطاقة لمشاريع
+                الستشعار، وأنظمة التحكم
+                8
+                مواصفات مزود الطاقة 12 فولت 15
+                أمبير:
+                جهد الدخل :
+                فولت 220-110 - 50-60 ،ACهرتز
+                جهد الخرج :
+                فولت 12 - DC
+                تيار الخرج :
+                - 15 أمبير
+                الطاقة :
+                - 180 وات
+                كفاءة الطاقة :
+                - ≥%80
+                حماية :
+                - من قصر الدائرة، والحمل الزائد، وارتفاع الجهد
+                الميزات :
+                - مؤشر ، مروحة تبريد،يغلف معدني
+                التطبيقات :
+                - انظمة االمن, االضاءة,االجهزة االلكترونية
+                المشاريع اللكترونية
+                مميزات مزود الطاقة 12 فولت 15 أمبير :
+                1 -موثوقية عالية
+                LED
+                تتميز هذه المزودات بجودة عالية ومكونات
+                متينة
+                لضمان التشغيل الموثوق به .
+                2 -كفاءة عالية :
+                - توفر هذه المزودات كفاءة طاقة عالية، مما
+                يقلل من
+                استهلك الطاقة وتوليد الحرارة .
+                9
+                3 -حماية شاملة :
+                - توفر هذه المزودات حماية من قصر
+                الدائرة،يوالحمل
+                الزائد، وارتفاع الجهد، مما يضمن سلمة
+                الجهاز
+                والجهزة المتصلة .
+                4 -سهولة االستخدام :
+                - تأتي هذه المزودات مع مدخلتيومخرجات
+                قياسية، مما
+                يسهل توصيلها بالجهزة الخرى .
+                5 -سعر مناسب :
+                - تتميز هذه المزودات بسعر مناسب مقارنة
+                بالمواصفات
+                التي تقدمها .
+                عيوب مزود الطاقة 12 فولت 15 أمبير
+                1 - الحجم والوزن
+                مما قد يجعلها غير مناسبة للتطبيقات التي
+                تتطلب
+                مساحة محدودة .
+                2 -ضوضاء المروحة :
+                - قد تصدر بعض المزودات ضوضاء من
+                مروحة التبريد،ي
+                خاصة عند العمل بأحمال عالية .</p>
+    </div>
+
+    <div id="Arduino" class="content">
+        <h2>Arduino</h2>
+        <p>Arduino Uno can be used in a wide range of applications, including:
+
+            Robotics Control:
+            
+            It can be used to control the motion of robots using servo motors.
+            Sensor Devices:
+            
+            It can read data from various sensors such as light sensors, temperature sensors, and distance sensors.
+            Home Appliance Systems:
+            
+            It can control home appliances such as lights, fans, and air conditioners.
+            Multimedia Projects:
+            
+            It can be used to create interactive projects such as music control panels and video games.
+            Educational Tools:
+            
+            It can be used to teach electronics and programming to students.
+            To get started with Arduino Uno, you will need the following:
+            
+            Arduino Uno board
+            USB cable
+            Computer
+            Arduino IDE software
+            Other electronic components depending on the project
+            In conclusion:
+            
+            Arduino Uno is a powerful and versatile tool suitable for a wide range of projects.
+            Its ease of use and affordability make it an excellent choice for beginners in electronics and programming.
+            With many educational resources and online support available, it's easy to start with Arduino Uno and create creative projects.</p>
+        <img src="images/th (1).jfif" style="max-width: 100%;">
+        <p>, يمكن استخدام اردوينو اونو فى مجموعة واسعة
+            بما
+            فى ذلك :
+            1 -التحكم فى الروبوتات :
+            - يمكن استخدامها للتحكم فى حركة الروبوتات
+            باستخدام
+            المحركات المؤازرة .
+            2 -اجهزة االستشعار :
+            - يمكن استخدامها لقراءة بيانات من أجهزة االستشعار
+            المختلفة مثل أجهزة استشعار الضوء، وأجهزة
+            استشعار الحرارة، وأجهزة استشعار المسافة .
+            3 -انظمة االجهزة المنزلية :
+            - يمكن استخدامها للتحكم في الجهزة المنزلية مثل
+            الضواء، والمراوح، وأجهزة التكييف .
+            4 -مشاريع الوسائط المتعددة :
+            - : مشاريع الوسائط المتعددة يمكن استخدامهاملنشاء
+            مشاريع تفاعلية مثل لوحات التحكم الموسيقية، وألعاب
+            الفيديو.
+            5 -ادوات تعليمية :
+            - يمكن استخدامها لتعليم اللكترونيات والبرمجة للطلب .
+            البدء مع آردوينو أونو :
+            - البدء مع آردوينو أونو، ستحتاج إلى ما يلي :
+            لوحة آردوينو أونو -
+            كابل USB-
+            جهاز كمبيوتر-
+            برنامج آردوينو IDE-
+            )مكونات إلكترونية أخرى حسب المشروع (
+            11
+            الخاتمة:
+            - آردوينو أونو هي أداة قوية ومتعددةم الستخداماتميمكن
+            استخدامها لنشاء مجموعة واسعة من المشاريع .
+            ًُ سهولة استخدامها وسعرها المنخفض يجعلها خيارا
+            -
+            ًُ ممتازا للمبتدئين في مجال االلكترونياتموالبرمجة .
+            - مع توفر العديد من الموارد التعليمية والدعم عبر
+            االنترنت، من السهل البدء مع آردوينو أونو وخلق
+            مشاريع إبداعية</p>
+    </div>
+
+    <div id="LIGHTBURN" class="content">
+        <h2>LIGHTBURN</h2>
+        <p>Key Features:
+
+            Visual Design:
+            
+            Allows users to create LIGHTBURN designs directly on the software interface.
+            Compatibility with Various Formats:
+            
+            Supports multiple file formats such as AI, SVG, and others, enabling easy import and export of designs.
+            Precise Cutting Control:
+            
+            Enables users to accurately adjust speed, power, and cutting depth based on the materials used.
+            Advanced Editing Features:
+            
+            Provides a range of tools for editing designs, including rotation, scaling, and other modifications.
+            Pre-Printing Simulation:
+            
+            Allows users to preview and simulate designs before starting the actual cutting process.
+            LIGHTBURN Uses:
+            
+            Laser engraving on materials such as wood, acrylic, and leather.
+            Laser cutting to produce three-dimensional cuts from different materials.
+            Manufacturing signs, jewelry, and interior decorations with custom designs.
+            Additional Features:
+            
+            Community Support:
+            
+            Boasts an active community of users and developers who provide support and assistance.
+            Regular Updates:
+            
+            Regularly updated to improve performance, add new features, and fix bugs.
+            Conclusion:
+            
+            With its user-friendly interface and advanced feature set, LIGHTBURN is an excellent choice for anyone looking for powerful software for designing and controlling laser cutting. Whether you're a beginner or a professional in laser engraving, it provides the necessary tools to create stunning designs and execute them with precision.</p>
+            <img src="images/th (2).jfif" style="max-width: 100%;">
+            <p>الميزات الرئيسية :
+                1 -تصميم مرئى :
+                - يسمح للمستخدمين بانشاء التصاميم LIGHTBURN
+                بشكل مباشر على واجهه البرنامج .
+                2 -توافق مع مجموعة متنوعة من الصيغ :
+                – يدعم العديد من صيغ الملفات مثل
+                و غيرها مما يسمح بسهولة استيراد و تصدير
+                التصاميم .
+                AI,SVG LIGHTBURN
+                13
+                3 -تحكم دقيق فى القطع :
+                - يتيح للمستخدمين ضبط السرعة و القوة و عمق
+                القطع بدقة على اساس المواد المستخدمة .
+                4 -ميزات التحرير المتقدمة :
+                - يوفر البرنامج موجموعة من االدوات لتحرير
+                التصاميم بما فى ذلك تدوير و تكبيرتو تصغير العناصر
+                .
+                5 -محاكاة قبل الطباعة :
+                - يتيح البرنامج للمستخدمين معاينة التصاميم و
+                محاكاتها قبل البدء فى عملية القطع الفعلية .
+                استخدامات LIGHTBURN:
+                - الحفر بالليزر على المواد مثل الخشب و االكريليك و
+                الجلد .
+                القطع بالليزر النتاج قطع ثالثية البعاد من مواد
+                مختلفة .
+                - تصنيع الالفتات و المجوهرات و الديكورات الداخلية
+                التصاميم الخصصة .
+                الميزات االضافية :
+                1 -دعم مجتمع و داعم :
+                - يتميز بمجتمع نشط من المستخدمين
+                و المطورين الذين يقدمون الدعم و المساعدة .
+                2 -تحديثات منتظمة :
+                - يتم تحديث بانتظام لتحسين الداء و
+                اضافة ميزاتتجديدة و تصحيح الخطاء .
+                االستنتاج :
+                - بفضل واجهته السهلة الستخدامتو مجموعة ميزاته
+                المتقدمة , يعتبر خيارا ممتازا الى
+                شخص يبحث عن برنامج قوى لتصميم و التحكم فى
+                , القطع بالليزر سواء كنت مبتدئا او محترفا فى مجال
+                الحفر بالليزر فان , يقدم الدوات
+                الالزمه النشاء تصاميم مذهله و تنفيذها بدقة .</p>
+    </div>
+
+    <div id="Safety" class="content">
+        <h2>Safety</h2>
+        <p>
+            Safety and Health Risks:
+            
+            Laser Radiation:
+            
+            Powerful laser beams can cause serious damage to the eyes and skin.
+            Smoke and Fumes:
+            
+            Cutting materials with a laser can produce harmful smoke and fumes.
+            Fire and Explosions:
+            
+            Some materials, such as plastics, can ignite or explode when cut with a laser.
+            Physical Injuries:
+            
+            Serious physical injuries can occur if CNC machines are not used properly.
+            Safety and Health Practices:
+            
+            Comprehensive Training:
+            
+            All workers using laser CNC machines should receive comprehensive training on how to use them safely.
+            Personal Protective Equipment (PPE):
+            
+            Workers should wear appropriate personal protective equipment, such as safety glasses, gloves, and protective clothing, when using laser CNC machines.
+            Ventilation:
+            
+            The work area should be adequately ventilated to remove harmful smoke and fumes.
+            Safety Procedures:
+            
+            Proper safety procedures should be followed, such as shutting down the machine and removing materials before performing any maintenance or repairs.
+            Maintenance:
+            
+            Laser CNC machines should be regularly maintained to ensure they are operating safely.
+            Additional Tips:
+            
+            Stay informed about the latest safety and health risks associated with using laser CNC machines.
+            Always consult the machine's operating manual before use.
+            Never operate a laser CNC machine unless properly trained and equipped with personal protective equipment.
+            Use the appropriate CNC machine for the task at hand.
+            In case of any accidents, follow emergency procedures immediately.</p>
+        <img src="images/download (3).jpg" style="max-width: 100%;">
+        <p>الليزر في مختلف المجاالت الصناعية، من تصنيع المعادن إلى قطع أالقمشة. بينما توفر
+            ت ستخدم آالت CNCهذه
+            .آالت دقة وكفاءة عالية، إال أنها قد ت شكل مخاطر سالمة وصحة مهنية للعمال إذا لم يتم
+            استخدامها بشكل صحيح
+            :مخاطر السالمة والصحة المهنية
+            إالشعاع CNC.الليزر أشعة ليزر قوية يمكن أن ت سبب ضرًرا كبيًرا للعينين والجلد
+            الليزر: ت صدر آالت
+            نا ضاًرا
+            .أالبخرة والدخان: قد ت نتج بعض المواد عند قطعها بواسطة الليزر أبخرة ودخاً
+            .الحرائق واالنفجارات: قد تسبب بعض المواد، مثل البالستيك، أو انفجارات عند حرائ ًق
+            قطعها بواسطة الليزر
+            إصابات الجسدية: CNC. إصابات جسدية خطيرة إذا لم يتم استخدامها بشكل صحيح
+            يمكن أن ت سبب آالت
+            16
+            :ممارسات السالمة والصحة المهنية
+            .الليزر تلقي تدريب شامل على كيفية استخدامها بشكل آمن : يجب على جميع
+            العاملين الذين يستخدمون آالت
+            المعدات الوقائية الشخصية: يجب على العاملين ارتداء معدات واقية شخصية
+            مناسبة، مثل النظارات الواقية والقفازات والمالبس الواقية،
+            عند استخدام آالت CNC.الليزر
+            .التنفيس: يجب تهوية منطقة العمل بشكل كا ٍف الزالة أالبخرة والدخان الضار
+            .إجراءات السالمة: يجب اتباع إجراءات السالمة المناسبة، مثل إيقاف تشغيل
+            اآللة وإزالة المواد قبل إجراء أي صيانة أو إصالحات
+            الصيانة: يجب CNC.الليزر بشكل منتظم للتأكد من أنها تعمل بشكل آمن
+            صيانة آالت
+            :نصائح إضافية
+            احرص على البقاء على اطالع على أحدث مخاطر السالمة CNC.الليزر
+            والصحة المهنية المتعلقة باستخدام آالت
+            .استشر دائًما دليل التشغيل الخاص باآللة قبل استخدامها .الليزر إال إذا كنت مد ًربا بشكل صحيح و مج ًهزا بالمعدات الوقائية الشخصية التقم أب ًدا بتشغيل آلة CNCالمناسبة .في حالة حدوث أي حادث، اتبع إجراءات الطوارئ على الفور</p>
+    </div>
